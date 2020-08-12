@@ -1,38 +1,495 @@
-.App {
-  text-align: center;
+* 
+{
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.baner {
+    color: green;
+    font-family: 'Noto Nastaliq Urdu', serif;
+    font-size: 0.7cm;
+    top: -14%;
+    position: absolute;
+    animation-name:go7; 
+    animation-delay: 252s;
+    animation-fill-mode: forwards;
+    z-index: 1;
   }
+  @keyframes go7 {
+         
+  from {left:-10%;}
+  to {left:10%; top:30%;} 
+    }
+
+.banner
+{
+    
+    font-family: salah, serif;
+    color:red;
+    text-align: center;
+    bottom: 480px;
+    top:-10%;
+    position: absolute;
+    z-index: 1;    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sea16
+{
+    height:100vh;
+    width: 100%;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-image: url(css/sea16.jpg);
+    position: relative;
+    overflow-x: hidden;
+
+}
+.fields
+{
+    height:200px;
+    width: 100%;
+    display: block;
+    background-image: url(css/field4.jpg);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    
 }
 
-.App-link {
-  color: #61dafb;
+.tank2 {
+
+    display: flex;
+    width: 150px;
+    right: 0%;
+    bottom: 15px;
+    position: absolute;
+    z-index: 2;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.tank2 img
+
+{
+    width: 100%;
+    
+}
+
+.tank6 {
+
+    width: 100px;
+    left: -10%;
+    bottom: 70px;
+    position: absolute;
+    z-index: 2;
+}
+
+.tank6 img
+
+{
+    width: 100%;
+    
+}
+
+.tank3 {
+
+    width: 80px;
+    left: -10%;
+    bottom: 180px;
+    position: absolute;
+    z-index: 1;
+}
+
+.tank3 img
+
+{
+    width: 100%;
+    
+}
+
+.fire3 {
+    width: 100px;
+    top:-10%;
+    position: absolute;
+    animation-name:go; 
+    animation-delay: 40s;
+    z-index: 1;
+    animation-fill-mode: forwards;
+    
   }
-  to {
-    transform: rotate(360deg);
+  .fire3 img
+
+  {
+      width: 100%;
+      
   }
+  @keyframes go {
+         
+  from {left: 0px;}
+  to {left:0px; top:93%} 
+ 
+    }
+  
+
+.fire4 {
+    width: 25px;
+    left:-10%;
+    position: absolute;
+    animation-name:go2; 
+    animation-delay: 60s;
+    z-index: 1;
+    animation-fill-mode: forwards;
+    }
+.fire4 img
+{  
+      width: 100%;
+      }
+@keyframes go2 {
+
+  from {top:-10%}
+  to {top:89%; left:35%;} 
+ 
+    }
+
+
+
+.fire5 {
+    width: 35px;
+    top: -14%;
+    position: absolute;
+    animation-name:go5; 
+    animation-delay: 100s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+  }
+  .fire5 img
+
+  {
+      width: 100%;
+      
+  }
+  @keyframes go5 {
+         
+  from {left:-10%;}
+  to {left:20%; top:70%;} 
+    }
+
+.fire5a {
+        width: 35px;
+        top: -14%;
+        position: absolute;
+        animation-name:go5a; 
+        animation-delay: 240s;
+        animation-fill-mode: forwards;
+        z-index: 1;
+      }
+.fire5a img
+    
+      {
+          width: 100%;
+          
+      }
+@keyframes go5a {
+             
+      from {left:-10%;}
+      to {left:9%; top:44%;} 
 }
+
+.fire5b {
+    width: 55px;
+    top: -14%;
+    position: absolute;
+    animation-name:go5b; 
+    animation-delay: 237s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+  }
+.fire5b img
+
+  {
+      width: 100%;
+      
+  }
+@keyframes go5b {
+         
+  from {left:-10%;}
+  to {left:31%; top:64%;} 
+    }
+
+.fire5c {
+        width: 55px;
+        top: -14%;
+        position: absolute;
+        animation-name:go5c; 
+        animation-delay: 237s;
+        animation-fill-mode: forwards;
+        z-index: 1;
+      }
+.fire5c img
+    
+      {
+          width: 100%;
+          
+      }
+@keyframes go5c {
+             
+      from {left:-10%;}
+      to {left:33%; top:78%;} 
+        }
+
+.fire5d {
+            width: 52px;
+            top: -14%;
+            position: absolute;
+            animation-name:go5d; 
+            animation-delay: 225s;
+            animation-fill-mode: forwards;
+            z-index: 1;
+          }
+.fire5d img
+        
+          {
+              width: 100%;
+              
+          }
+@keyframes go5d {
+                 
+          from {left:-10%;}
+          to {left:8%; top:78%;} 
+            }
+    
+
+.fire4-1 {
+    width: 15px;
+    left:-10%;
+    position: absolute;
+    animation-name:go3; 
+    animation-delay: 140s;
+    z-index: 1;
+    animation-fill-mode: forwards;
+    }
+.fire4-1 img
+{  
+      width: 100%;
+      }
+@keyframes go3 {
+
+  from {top:0px}
+  to {top:450px; left:41%;} 
+ 
+    }
+
+
+.fire4-2 {
+    width: 20px;
+    top: -11%;
+    position: absolute;
+    animation-name:go1; 
+    animation-delay: 25s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+  }
+  .fire4-2 img
+
+  {
+      width: 100%;
+      
+  }
+  @keyframes go1 {
+         
+  from {left:-10%;}
+  to {left:0%; top:70%;} 
+}
+
+
+.fire4-3 {
+    width: 25px;
+    top: -11%;
+    position: absolute;
+    animation-name:go4; 
+    animation-delay: 160s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+  }
+  .fire4-3 img
+
+  {
+      width: 100%;
+      
+  }
+  @keyframes go4 {
+         
+  from {left:-10%;}
+  to {left:27%; top:70%;} 
+    }
+
+
+.flagI {
+
+    width: 50px;
+    left: 10%;
+    bottom: 15px;
+    position: absolute;
+    z-index: 1;
+}
+
+.flagI img
+
+{
+    width: 100%;
+    
+}
+
+.flagIS {
+
+    width: 40px;
+    left: 10%;
+    bottom: 195px;
+    position: absolute;
+    z-index: 1;
+}
+
+.flagIS img
+
+{
+    width: 100%;
+    
+}
+
+.flagP {
+     width: 50px;
+    right: 1%;
+    bottom: 0;
+    position: absolute;
+    z-index: 1;
+}
+.flagP img
+{
+    width: 100%;
+    
+}
+
+.flagPak {
+    
+    width: 100px;
+    top: -14%;
+    position: absolute;
+    animation-name:goFlag; 
+    animation-delay: 252s;
+    animation-fill-mode: forwards;
+    z-index: 1;
+  }
+  .flagPak img
+
+  {
+      width: 100%;
+      
+  }
+  @keyframes goFlag {
+         
+  from {left:-10%;}
+  to {left:43%; top:12%;} 
+    }
+
+
+
+
+.jet1 {
+    width: 140px;
+    right: 0%;
+    bottom: 500px;
+    position: absolute;   
+    
+	}
+
+.jet1 img
+
+{
+    width: 100%;
+}
+   
+
+
+.jet3 {
+    display: flex;
+    width: 140px;
+    left:-15%;
+    bottom: 400px;
+    position: absolute;
+    transform: rotate(-30deg);
+    z-index: 1;
+}
+
+.jet3 img
+
+{
+    width: 100%;
+    
+}
+.jet4 {
+    display: flex;
+    width: 140px;
+    left: -15%;
+    bottom: 600px;
+    position: absolute;
+    transform: rotate(-10deg);
+    z-index: 1;
+}
+
+.jet4 img
+
+{
+    width: 100%;
+    
+}
+.ship12 {
+
+    width: 70px;
+    right: 45%;
+    bottom: 250px;
+    position: absolute;
+    
+    
+}
+
+.ship12 img
+
+{
+    width: 100%;
+    
+}
+.ship11 {
+
+    width: 120px;
+    left: 5%;
+    bottom: 250px;
+    position: absolute;
+    
+    
+}
+
+.ship11 img
+
+{
+    width: 100%;
+    
+}
+
+
+.gun1 {
+
+    width: 100px;
+    left: 5%;
+    bottom: 50px;
+    position: absolute;
+    z-index: 1;
+}
+
+.gun1 img
+
+{
+    width: 100%;
+    
+}
+
