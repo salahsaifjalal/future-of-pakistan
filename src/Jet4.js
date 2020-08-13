@@ -11,7 +11,7 @@ const Jet4 = () => {
     keyframes: [
       { transform: 'translate(0,100px' },
       { transform: 'translate(700px,100px)' },
-      { transform: 'translate(800px,700px)' },
+      { transform: 'translate(800px,900px)' },
     ],
     timing: {
 
