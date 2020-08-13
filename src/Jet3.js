@@ -10,7 +10,7 @@ const Jet3 = () => {
     keyframes: [
       { transform: 'translate(0,0px)' },
       { transform: 'translate(600px,100px)' },
-      { transform: 'translate(900px,700px)' },
+      { transform: 'translate(900px,900px)' },
     ],
     timing: {
 
